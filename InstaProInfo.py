@@ -23,6 +23,6 @@ def scrape_data(username):
     return parse_data(meta.attrs['content'])
 
 if __name__=="__main__":
-    username = "its_ashmita_"
+    username = "put here your insta id"
     data = scrape_data(username)
     print(data) 
